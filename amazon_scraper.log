@@ -1,0 +1,259 @@
+2024-12-20 19:31:34,922 INFO:Scraping category: kitchen
+2024-12-20 19:32:49,014 INFO:Scraping category: shoes
+2024-12-20 19:33:55,067 INFO:Scraping category: computers
+2024-12-20 19:35:05,278 INFO:Scraping category: electronics
+2024-12-20 19:36:28,394 INFO:Scraping completed.
+2024-12-20 19:36:28,394 INFO:Data saved to amazon_bestsellers_data.csv
+2024-12-20 20:00:36,689 INFO:Attempting to log into Amazon.
+2024-12-20 20:00:53,105 ERROR:Email field not found on the login page.
+2024-12-20 20:00:53,105 ERROR:Failed to log in. Exiting.
+2024-12-20 20:01:58,339 INFO:Attempting to log into Amazon.
+2024-12-20 20:15:42,204 ERROR:Password field not found.
+2024-12-20 20:15:42,204 INFO:Scraping category: kitchen
+2024-12-20 20:15:42,206 ERROR:Error scraping category kitchen: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF70E40FB05+28789]
+	(No symbol) [0x00007FF70E3786E0]
+	(No symbol) [0x00007FF70E21592A]
+	(No symbol) [0x00007FF70E1EF505]
+	(No symbol) [0x00007FF70E296477]
+	(No symbol) [0x00007FF70E2AEF42]
+	(No symbol) [0x00007FF70E28F1E3]
+	(No symbol) [0x00007FF70E25A938]
+	(No symbol) [0x00007FF70E25BAA1]
+	GetHandleVerifier [0x00007FF70E74933D+3410093]
+	GetHandleVerifier [0x00007FF70E75E7DD+3497293]
+	GetHandleVerifier [0x00007FF70E752A73+3448803]
+	GetHandleVerifier [0x00007FF70E4D7BBB+848171]
+	(No symbol) [0x00007FF70E383C3F]
+	(No symbol) [0x00007FF70E37F6E4]
+	(No symbol) [0x00007FF70E37F87D]
+	(No symbol) [0x00007FF70E36ED49]
+	BaseThreadInitThunk [0x00007FFF996B257D+29]
+	RtlUserThreadStart [0x00007FFF9B9CAF28+40]
+Traceback (most recent call last):
+  File "d:\infroware\test.py", line 257, in get_category_products
+    driver.get(category_url)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 393, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF70E40FB05+28789]
+	(No symbol) [0x00007FF70E3786E0]
+	(No symbol) [0x00007FF70E21592A]
+	(No symbol) [0x00007FF70E1EF505]
+	(No symbol) [0x00007FF70E296477]
+	(No symbol) [0x00007FF70E2AEF42]
+	(No symbol) [0x00007FF70E28F1E3]
+	(No symbol) [0x00007FF70E25A938]
+	(No symbol) [0x00007FF70E25BAA1]
+	GetHandleVerifier [0x00007FF70E74933D+3410093]
+	GetHandleVerifier [0x00007FF70E75E7DD+3497293]
+	GetHandleVerifier [0x00007FF70E752A73+3448803]
+	GetHandleVerifier [0x00007FF70E4D7BBB+848171]
+	(No symbol) [0x00007FF70E383C3F]
+	(No symbol) [0x00007FF70E37F6E4]
+	(No symbol) [0x00007FF70E37F87D]
+	(No symbol) [0x00007FF70E36ED49]
+	BaseThreadInitThunk [0x00007FFF996B257D+29]
+	RtlUserThreadStart [0x00007FFF9B9CAF28+40]
+
+2024-12-20 20:15:42,217 INFO:Scraping category: shoes
+2024-12-20 20:15:42,219 ERROR:Error scraping category shoes: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF70E40FB05+28789]
+	(No symbol) [0x00007FF70E3786E0]
+	(No symbol) [0x00007FF70E21592A]
+	(No symbol) [0x00007FF70E1EF505]
+	(No symbol) [0x00007FF70E296477]
+	(No symbol) [0x00007FF70E2AEF42]
+	(No symbol) [0x00007FF70E28F1E3]
+	(No symbol) [0x00007FF70E25A938]
+	(No symbol) [0x00007FF70E25BAA1]
+	GetHandleVerifier [0x00007FF70E74933D+3410093]
+	GetHandleVerifier [0x00007FF70E75E7DD+3497293]
+	GetHandleVerifier [0x00007FF70E752A73+3448803]
+	GetHandleVerifier [0x00007FF70E4D7BBB+848171]
+	(No symbol) [0x00007FF70E383C3F]
+	(No symbol) [0x00007FF70E37F6E4]
+	(No symbol) [0x00007FF70E37F87D]
+	(No symbol) [0x00007FF70E36ED49]
+	BaseThreadInitThunk [0x00007FFF996B257D+29]
+	RtlUserThreadStart [0x00007FFF9B9CAF28+40]
+Traceback (most recent call last):
+  File "d:\infroware\test.py", line 257, in get_category_products
+    driver.get(category_url)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 393, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF70E40FB05+28789]
+	(No symbol) [0x00007FF70E3786E0]
+	(No symbol) [0x00007FF70E21592A]
+	(No symbol) [0x00007FF70E1EF505]
+	(No symbol) [0x00007FF70E296477]
+	(No symbol) [0x00007FF70E2AEF42]
+	(No symbol) [0x00007FF70E28F1E3]
+	(No symbol) [0x00007FF70E25A938]
+	(No symbol) [0x00007FF70E25BAA1]
+	GetHandleVerifier [0x00007FF70E74933D+3410093]
+	GetHandleVerifier [0x00007FF70E75E7DD+3497293]
+	GetHandleVerifier [0x00007FF70E752A73+3448803]
+	GetHandleVerifier [0x00007FF70E4D7BBB+848171]
+	(No symbol) [0x00007FF70E383C3F]
+	(No symbol) [0x00007FF70E37F6E4]
+	(No symbol) [0x00007FF70E37F87D]
+	(No symbol) [0x00007FF70E36ED49]
+	BaseThreadInitThunk [0x00007FFF996B257D+29]
+	RtlUserThreadStart [0x00007FFF9B9CAF28+40]
+
+2024-12-20 20:15:42,219 INFO:Scraping category: computers
+2024-12-20 20:15:42,220 ERROR:Error scraping category computers: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF70E40FB05+28789]
+	(No symbol) [0x00007FF70E3786E0]
+	(No symbol) [0x00007FF70E21592A]
+	(No symbol) [0x00007FF70E1EF505]
+	(No symbol) [0x00007FF70E296477]
+	(No symbol) [0x00007FF70E2AEF42]
+	(No symbol) [0x00007FF70E28F1E3]
+	(No symbol) [0x00007FF70E25A938]
+	(No symbol) [0x00007FF70E25BAA1]
+	GetHandleVerifier [0x00007FF70E74933D+3410093]
+	GetHandleVerifier [0x00007FF70E75E7DD+3497293]
+	GetHandleVerifier [0x00007FF70E752A73+3448803]
+	GetHandleVerifier [0x00007FF70E4D7BBB+848171]
+	(No symbol) [0x00007FF70E383C3F]
+	(No symbol) [0x00007FF70E37F6E4]
+	(No symbol) [0x00007FF70E37F87D]
+	(No symbol) [0x00007FF70E36ED49]
+	BaseThreadInitThunk [0x00007FFF996B257D+29]
+	RtlUserThreadStart [0x00007FFF9B9CAF28+40]
+Traceback (most recent call last):
+  File "d:\infroware\test.py", line 257, in get_category_products
+    driver.get(category_url)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 393, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF70E40FB05+28789]
+	(No symbol) [0x00007FF70E3786E0]
+	(No symbol) [0x00007FF70E21592A]
+	(No symbol) [0x00007FF70E1EF505]
+	(No symbol) [0x00007FF70E296477]
+	(No symbol) [0x00007FF70E2AEF42]
+	(No symbol) [0x00007FF70E28F1E3]
+	(No symbol) [0x00007FF70E25A938]
+	(No symbol) [0x00007FF70E25BAA1]
+	GetHandleVerifier [0x00007FF70E74933D+3410093]
+	GetHandleVerifier [0x00007FF70E75E7DD+3497293]
+	GetHandleVerifier [0x00007FF70E752A73+3448803]
+	GetHandleVerifier [0x00007FF70E4D7BBB+848171]
+	(No symbol) [0x00007FF70E383C3F]
+	(No symbol) [0x00007FF70E37F6E4]
+	(No symbol) [0x00007FF70E37F87D]
+	(No symbol) [0x00007FF70E36ED49]
+	BaseThreadInitThunk [0x00007FFF996B257D+29]
+	RtlUserThreadStart [0x00007FFF9B9CAF28+40]
+
+2024-12-20 20:15:42,220 INFO:Scraping category: electronics
+2024-12-20 20:15:42,221 ERROR:Error scraping category electronics: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF70E40FB05+28789]
+	(No symbol) [0x00007FF70E3786E0]
+	(No symbol) [0x00007FF70E21592A]
+	(No symbol) [0x00007FF70E1EF505]
+	(No symbol) [0x00007FF70E296477]
+	(No symbol) [0x00007FF70E2AEF42]
+	(No symbol) [0x00007FF70E28F1E3]
+	(No symbol) [0x00007FF70E25A938]
+	(No symbol) [0x00007FF70E25BAA1]
+	GetHandleVerifier [0x00007FF70E74933D+3410093]
+	GetHandleVerifier [0x00007FF70E75E7DD+3497293]
+	GetHandleVerifier [0x00007FF70E752A73+3448803]
+	GetHandleVerifier [0x00007FF70E4D7BBB+848171]
+	(No symbol) [0x00007FF70E383C3F]
+	(No symbol) [0x00007FF70E37F6E4]
+	(No symbol) [0x00007FF70E37F87D]
+	(No symbol) [0x00007FF70E36ED49]
+	BaseThreadInitThunk [0x00007FFF996B257D+29]
+	RtlUserThreadStart [0x00007FFF9B9CAF28+40]
+Traceback (most recent call last):
+  File "d:\infroware\test.py", line 257, in get_category_products
+    driver.get(category_url)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 393, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF70E40FB05+28789]
+	(No symbol) [0x00007FF70E3786E0]
+	(No symbol) [0x00007FF70E21592A]
+	(No symbol) [0x00007FF70E1EF505]
+	(No symbol) [0x00007FF70E296477]
+	(No symbol) [0x00007FF70E2AEF42]
+	(No symbol) [0x00007FF70E28F1E3]
+	(No symbol) [0x00007FF70E25A938]
+	(No symbol) [0x00007FF70E25BAA1]
+	GetHandleVerifier [0x00007FF70E74933D+3410093]
+	GetHandleVerifier [0x00007FF70E75E7DD+3497293]
+	GetHandleVerifier [0x00007FF70E752A73+3448803]
+	GetHandleVerifier [0x00007FF70E4D7BBB+848171]
+	(No symbol) [0x00007FF70E383C3F]
+	(No symbol) [0x00007FF70E37F6E4]
+	(No symbol) [0x00007FF70E37F87D]
+	(No symbol) [0x00007FF70E36ED49]
+	BaseThreadInitThunk [0x00007FFF996B257D+29]
+	RtlUserThreadStart [0x00007FFF9B9CAF28+40]
+
+2024-12-20 20:15:44,341 INFO:Scraping completed.
+2024-12-20 20:15:44,341 INFO:Data saved to amazon_bestsellers_data.csv
+2024-12-20 20:24:32,815 INFO:Scraping category: kitchen
+2024-12-20 20:25:48,155 INFO:Scraping category: shoes
+2024-12-20 20:26:59,166 INFO:Scraping category: computers
+2024-12-20 20:28:12,941 WARNING:Product title not found at https://www.amazon.in/Dell-MS116-1000DPI-Wired-Optical/dp/B01HJI0FS2/ref=zg_bs_g_computers_d_sccl_9/262-2604618-8005357?psc=1, attempt 1
+2024-12-20 20:28:33,363 INFO:Scraping category: electronics
+2024-12-20 20:28:45,612 WARNING:Product title not found at https://www.amazon.in/Redmi-Sparkle-Storage-Segment-Charging/dp/B0DLW44CGS/ref=zg_bs_g_electronics_d_sccl_1/262-2604618-8005357?psc=1, attempt 1
+2024-12-20 20:29:08,261 WARNING:Product title not found at https://www.amazon.in/Redmi-Starlight-Storage-MediaTek-Dimensity/dp/B0CNX89QR8/ref=zg_bs_g_electronics_d_sccl_2/262-2604618-8005357?psc=1, attempt 1
+2024-12-20 20:29:21,098 WARNING:Product title not found at https://www.amazon.in/Redmi-Starlight-Storage-MediaTek-Dimensity/dp/B0CNX89QR8/ref=zg_bs_g_electronics_d_sccl_2/262-2604618-8005357?psc=1, attempt 2
+2024-12-20 20:29:36,439 WARNING:Product title not found at https://www.amazon.in/Apple-USB-C-Adapter-iPhone-AirPods/dp/B09794YHBS/ref=zg_bs_g_electronics_d_sccl_3/262-2604618-8005357?psc=1, attempt 1
+2024-12-20 20:29:49,215 WARNING:Product title not found at https://www.amazon.in/Apple-USB-C-Adapter-iPhone-AirPods/dp/B09794YHBS/ref=zg_bs_g_electronics_d_sccl_3/262-2604618-8005357?psc=1, attempt 2
+2024-12-20 20:30:12,324 WARNING:Product title not found at https://www.amazon.in/boAt-BassHeads-100-Headphones-Black/dp/B071Z8M4KX/ref=zg_bs_g_electronics_d_sccl_5/262-2604618-8005357?psc=1, attempt 1
+2024-12-20 20:30:25,051 WARNING:Product title not found at https://www.amazon.in/boAt-BassHeads-100-Headphones-Black/dp/B071Z8M4KX/ref=zg_bs_g_electronics_d_sccl_5/262-2604618-8005357?psc=1, attempt 2
+2024-12-20 20:30:49,720 WARNING:Product title not found at https://www.amazon.in/realme-Storage-Comfort-Resistance-48-Month/dp/B0D945V84N/ref=zg_bs_g_electronics_d_sccl_7/262-2604618-8005357?psc=1, attempt 1
+2024-12-20 20:31:02,493 WARNING:Product title not found at https://www.amazon.in/realme-Storage-Comfort-Resistance-48-Month/dp/B0D945V84N/ref=zg_bs_g_electronics_d_sccl_7/262-2604618-8005357?psc=1, attempt 2
+2024-12-20 20:31:18,609 WARNING:Product title not found at https://www.amazon.in/boAt-Rockerz-255-Pro-Earphones/dp/B08TV2P1N8/ref=zg_bs_g_electronics_d_sccl_8/262-2604618-8005357?psc=1, attempt 1
+2024-12-20 20:31:31,486 WARNING:Product title not found at https://www.amazon.in/boAt-Rockerz-255-Pro-Earphones/dp/B08TV2P1N8/ref=zg_bs_g_electronics_d_sccl_8/262-2604618-8005357?psc=1, attempt 2
+2024-12-20 20:31:57,534 INFO:Scraping completed.
+2024-12-20 20:31:57,537 INFO:Data saved to amazon_bestsellers_data.csv
